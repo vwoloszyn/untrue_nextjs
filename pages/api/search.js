@@ -9,7 +9,7 @@ export default async (req, res) => {
   await axios
     .get(apiUrl,{headers: {'Ocp-Apim-Subscription-Key': subscription_Key}})
     .then(({ data }) => {
-      //res.setHeader("Cache-Control","s-maxage=30, stale-while-revalidade")
+      res.setHeader("Cache-Control","s-maxage=30, stale-while-revalidade")
       res.status(200).json({ data })
     })
     .catch(({ err }) => {

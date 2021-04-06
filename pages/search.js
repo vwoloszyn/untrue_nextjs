@@ -17,7 +17,7 @@ export default function Search(){
                 <div id="" className="">
                     <form className="search" action="search" >
                         <input type="text" placeholder="Search.." name="q" defaultValue={router.query.q}></input>
-                        <button type="submit"><i className="fa fa-search"></i></button>
+                        <button type="submit"><i className="fa fa-search" />Go!</button>
                     </form>
                 </div>
             </div> 

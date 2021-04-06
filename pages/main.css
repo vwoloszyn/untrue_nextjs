@@ -3993,7 +3993,7 @@ form.seach{
 .header{
 	width: 100%;
 	_position: absolute;
-	background-color: #525252;
+	_background-color: black;
 	padding-top: 5px;
 	padding-left: 5px;
 	height: 40px;
@@ -4003,15 +4003,57 @@ form.seach{
 	
 	float: left;
 	margin-top: 6px;
-}
-.header input{
-	
-	float:left;
-	width: 200px;
-	height: 30px;
-	background-color: #fff;
+	_color: green;
 }
 
 .header button{
 	height: 30px;
+}
+
+.terminal-logo{
+	width: 600px !important;
+	height: 40px !important;
+}
+
+form.search{
+	height: 40px !important;
+}
+
+.terminal-nav{
+	height: 40px !important;
+}
+
+
+.terminal-logo .terminal-prompt{
+	float: left;
+}
+.search input{
+	float: left;
+	height: 30px;
+	width: 150px !important;
+	
+}
+
+
+blockquote{
+	margin-top: -40px;
+	font-size: 10px;
+	max-width: 400px !important;
+	margin-left: 50px;
+}
+
+html{
+	margin: 5px;
+}
+
+.terminal{
+	margin: 15px !important;
+}
+
+.terminal-prompt::after {
+	background: #525252 !important;
+}
+
+a {
+	color: black !important;
 }

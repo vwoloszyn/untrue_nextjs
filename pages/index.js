@@ -23,9 +23,9 @@ function Home() {
           <button type="submit"><i className="fa fa-search" />Search</button>
         </form>
         <p>
-          or try <a href="?q=coronavirus">Coronavirus</a>,
-          <a href="?q=refugees">Refugees</a> or
-          <a href="?q=Amazon+Rainforest">Amazon Rainforest</a>
+          or try <a href="search?q=coronavirus">Coronavirus</a>,
+          <a href="search?q=refugees">Refugees</a> or
+          <a href="search?q=Amazon+Rainforest">Amazon Rainforest</a>
         </p>
         <div className="n_fake_stories" id="n_fake_stories">50774</div>
         <p>Fake Stories in multiple Languages</p>
